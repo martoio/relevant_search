@@ -61,6 +61,6 @@
     "idePort": 23000
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "ubuntu"
   }
 }
