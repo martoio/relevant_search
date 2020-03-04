@@ -56,7 +56,7 @@
       "host01": [
         {
           "file": "*",
-          "target": "/root/tech-talk"
+          "target": "/root/"
         }
       ]
     }
