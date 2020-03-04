@@ -47,7 +47,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "init.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -56,7 +57,7 @@
       "host01": [
         {
           "file": "*",
-          "target": "/root/"
+          "target": "~/"
         }
       ]
     }
