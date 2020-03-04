@@ -55,9 +55,12 @@
   },
   "environment": {
     "showdashboards": true,
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal-iframe",
+    "showide": true,
+    "ide": "ssh host01 '/opt/start-vscode.sh'",
+    "idePort": 23000
   },
   "backend": {
-    "imageid": "martoio/elasticsearch-with-phonetic:0.1.0"
+    "imageid": "docker"
   }
 }

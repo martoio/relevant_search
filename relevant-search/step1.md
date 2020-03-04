@@ -1,0 +1,1 @@
+Let's start up our Elasticsearch node on Docker.
