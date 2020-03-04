@@ -58,6 +58,6 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "elasticsearch"
+    "imageid": "martoio/elasticsearch-with-phonetic:0.1.0"
   }
 }
