@@ -47,7 +47,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "init.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -63,6 +64,7 @@
   },
   "environment": {
     "showdashboards": true,
+    "dashboards": [{ "name": "Relevant", "port": 3000 }],
     "uilayout": "terminal-iframe",
     "showide": true,
     "ide": "ssh host01 '/opt/start-vscode.sh'",
