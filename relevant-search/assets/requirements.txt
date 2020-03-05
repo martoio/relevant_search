@@ -19,7 +19,7 @@ prezi-setuputils==1.5.12
 python-dateutil==2.7.3
 python-slugify==1.2.6
 rcssmin==1.0.6
-requests==2.19.1
+requests==2.20.0
 rjsmin==1.0.12
 s3transfer==0.1.13
 six==1.11.0
