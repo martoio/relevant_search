@@ -47,12 +47,18 @@ def reindex(analysis_settings = {}, mapping_settings = {}, movie_dict = {}):
             "index": {
                 "_index": "tmdb",
                 "_type": "_doc",
-                "id": movie['id']
+                "_id": movie['id']
             }
         }
         bulkMovies += json.dumps(add)
         bulkMovies += "\n"
         bulkMovies += json.dumps(movie)
         bulkMovies += "\n"
+    
+    resp = requests.post("{TMDB_INDEX}/_bulk".format(TMDB_INDEX=TMDB_INDEX), headers=headers, data=bulkMovies)
+    if resp.status_code == 200:
+        print("Files index correctly!")
+    else:
+        print('Error during reindexing :(')
 
 reindex(movie_dict=extract())
