@@ -9,8 +9,7 @@ Let's start up our Elasticsearch node on Docker.
 
 ### Spin up Kibana
 Let's also spin up a Kibana instance so we can use the tools there as well.
-`docker run -d --name kibana --link searchy:elasticsearch -p 5601:5601 docker.elastic.co/kibana/kibana:7.6.1
-`{{execute}}
+`docker run -d --name kibana --link searchy:elasticsearch -p 5601:5601 docker.elastic.co/kibana/kibana:7.6.1`{{execute}}
 
 ### Verify it's all good
 Running `docker ps`{{execute}} should give you the running docker containers named `searchy` and `kibana`.
