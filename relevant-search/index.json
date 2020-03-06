@@ -65,7 +65,16 @@
   },
   "environment": {
     "showdashboards": true,
-    "dashboards": [{ "name": "Relevant", "port": 3000 }],
+    "dashboards": [
+      { 
+        "name": "Relevant UI",
+        "port": 3000 
+      },
+      {
+        "name": "Kibana",
+        "port": 5601
+      }
+      ],
     "uilayout": "terminal-iframe",
     "showide": true,
     "ide": "ssh host01 '/opt/start-vscode.sh'",

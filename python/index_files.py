@@ -1,6 +1,8 @@
 import json
 import requests
 
+ELASTICSEARCH = 'http://localhost:9200'
+
 def extract():
     tmdb_file = open('tmdb.json')
     if tmdb_file:
@@ -8,6 +10,7 @@ def extract():
 
 
 def reindex(analysis_settings = {}, mapping_settings = {}, movie_dict = {}):
+    TMDB_INDEX = '{elasticsearch}/tmdb'.format(elasticsearch=ELASTICSEARCH)
     headers = {
         'Content-Type': 'application/json'
     }
@@ -25,11 +28,11 @@ def reindex(analysis_settings = {}, mapping_settings = {}, movie_dict = {}):
         settings['mappings'] = mapping_settings
     
     print('Deleting old TMDB index...')
-    resp = requests.delete('http://localhost:9201/tmdb')
+    resp = requests.delete(TMDB_INDEX)
     if resp.status_code == 200:
         print("TMDB index deleted successfully")
 
-    resp = requests.put('http://localhost:9201/tmdb', headers=headers, data=json.dumps(settings))
+    resp = requests.put(TMDB_INDEX, headers=headers, data=json.dumps(settings))
 
     if resp.status_code == 200:
         print("tmdb index created successfully")
