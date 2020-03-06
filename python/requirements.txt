@@ -26,3 +26,8 @@ six==1.11.0
 transifex-client==0.13.6
 Unidecode==1.1.1
 urllib3==1.23
+certifi==2019.11.28
+chardet==3.0.4
+idna==2.9
+requests==2.23.0
+urllib3==1.25.8
