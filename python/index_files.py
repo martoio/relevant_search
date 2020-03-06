@@ -37,3 +37,5 @@ def reindex(analysis_settings = {}, mapping_settings = {}, movie_dict = {}):
     if resp.status_code == 200:
         print("tmdb index created successfully")
 
+
+reindex()
