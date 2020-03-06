@@ -55,7 +55,7 @@
     "assets": {
       "host01": [
         {
-          "file": "init.sh",
+          "file": "*",
           "target": "/root/course"
         }
       ]
