@@ -1,4 +1,2 @@
 #!/bin/bash
-virtualenv virtualenv
-
-pip install -r requirements.txt
+git clone https://github.com/martoio/relevant_search.git .

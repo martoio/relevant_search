@@ -48,7 +48,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "start.sh",
+      "code": "init.sh",
       "credits": "Credits to Doug Turnbull and John Berryman for their book 'Relevant Search'"
     },
     "finish": {
@@ -57,7 +57,7 @@
     "assets": {
       "host01": [
         {
-          "file": "start.sh",
+          "file": "init.sh",
           "target": "/root/"
         }
       ]
