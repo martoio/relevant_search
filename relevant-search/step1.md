@@ -1,8 +1,13 @@
-Let's start up our Elasticsearch node on Docker.
-`docker run --name searchy -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" martoio/elasticsearch-with-phonetic:0.1.0`{{execute}}
+# What is relevance?
 
-Running `docker ps`{{execute}} should give you the running docker container named `searchy`.
+> Ranking search content based on how much that content satisfies the needs of the user and the business.
 
-You should be able to verify that the container runs correctly by running:
-`curl localhost:9200`{{execute}}
-And seeing the familiar `You know, for Search!` tagline.
+- What sort of content?
+- What sort of users?
+- What type of searches?
+- What are the user expectations?
+- What is the company trying to get out of search?
+
+A "relevance engineer" has to understand the content, the user, the business and the users' goals - usually this requires interaction and cooperation with multiple shareholders within the company.
+
+There's multiple classes of search and no 'one-size-fits-all' approach. Elasticsearch/Lucene provide a search framework on which we have to build a great search UX.
