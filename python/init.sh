@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /root/tools/python
 virtualenv virtualenv
 source virtualenv/bin/activate
 
