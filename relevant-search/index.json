@@ -66,10 +66,6 @@
   "environment": {
     "showdashboards": true,
     "dashboards": [
-      { 
-        "name": "Relevant UI",
-        "port": 3000 
-      },
       {
         "name": "Kibana",
         "port": 5601
