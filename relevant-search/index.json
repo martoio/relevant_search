@@ -48,6 +48,7 @@
     ],
     "intro": {
       "text": "intro.md",
+      "code": "start.sh",
       "credits": "Credits to Doug Turnbull and John Berryman for their book 'Relevant Search'"
     },
     "finish": {
@@ -56,20 +57,8 @@
     "assets": {
       "host01": [
         {
-          "file": "init.sh",
-          "target": "/root/course"
-        },
-        {
-          "file": "index_files.py",
-          "target": "/root/course"
-        },
-        {
-          "file": "tmdb.json",
-          "target": "/root/course"
-        },
-        {
-          "file": "requirements.txt",
-          "target": "/root/course"
+          "file": "start.sh",
+          "target": "/root/"
         }
       ]
     }
