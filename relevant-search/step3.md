@@ -16,4 +16,4 @@ And seeing the familiar `You know, for Search!` tagline.
 
 ### Spin up the dashboard
 We have a frontend dashboard built to make some of the visualizations a little easier, and so that we don't have to read all of the verbose JSON output from Elasticsearch. To spin up the dashboard, just run: <br>
-`cd dashboard && npm install && npm start`
+`cd dashboard && npm install && npm start`{{execute}}
