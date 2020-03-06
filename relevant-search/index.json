@@ -55,7 +55,23 @@
     "assets": {
       "host01": [
         {
-          "file": "*",
+          "file": "init.sh",
+          "target": "/root/course"
+        },
+        {
+          "file": "__init__.py",
+          "target": "/root/course"
+        },
+        {
+          "file": "index_files.py",
+          "target": "/root/course"
+        },
+        {
+          "file": "tmdb.json",
+          "target": "/root/course"
+        },
+        {
+          "file": "requirements.txt",
           "target": "/root/course"
         }
       ]
