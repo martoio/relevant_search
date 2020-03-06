@@ -57,7 +57,8 @@
       "host01": [
         {
           "file": "init.sh",
-          "target": "/root/course"
+          "target": "/root/course",
+          "chmod": "+x"
         }
       ]
     }
