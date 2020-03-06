@@ -1,10 +1,13 @@
 import json
 import requests
+import os
 
 ELASTICSEARCH = 'http://localhost:9200'
+__location__ = os.path.realpath(
+    os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
 def extract():
-    tmdb_file = open('tmdb.json')
+    tmdb_file = open(os.path.join(__location__, 'tmdb.json'))
     if tmdb_file:
         return json.loads(tmdb_file.read())
 
