@@ -42,10 +42,3 @@ GET /tmdb/_search
     }
 }
 ```
-# Term-centric:
-<details>
-    <summary>Illustration</summary>
-    
-  ![](https://i.imgur.com/muT4BlH.jpg)
-</details>
-
