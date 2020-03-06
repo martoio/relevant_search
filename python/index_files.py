@@ -37,5 +37,19 @@ def reindex(analysis_settings = {}, mapping_settings = {}, movie_dict = {}):
     if resp.status_code == 200:
         print("tmdb index created successfully")
 
+    bulkMovies = ""
 
-reindex()
+    for id, movie in movie_dict.iteritems():
+        add = {
+            "index": {
+                "_index": "tmdb",
+                "_type": "_doc",
+                "id": movie['id']
+            }
+        }
+        bulkMovies += json.dumps(add)
+        bulkMovies += "\n"
+        bulkMovies += json.dumps(movie)
+        bulkMovies += "\n"
+
+reindex(movie_dict=extract())
