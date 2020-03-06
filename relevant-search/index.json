@@ -6,31 +6,31 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Relevant search and you",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Review from last time",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Get the tools setup",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Basic theory of Lucene search",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Debugging queries 101",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Search & Statistics",
         "text": "step6.md"
       },
       {
-        "title": "Step 7",
+        "title": "S",
         "text": "step7.md"
       },
       {
