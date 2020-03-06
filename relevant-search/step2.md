@@ -41,9 +41,12 @@
     - Terms with additional metadata;
     - Tokens are strongly dependent on the tokenizer and the token filters used. For exmaple, the following text:
     `The Brown's fiftieth wedding anniversary, at Café Olé`
+    <br>
     could be tokenized into (assuming it ran through an ASCII character filter first):
     `[The][Brown's][fiftieth][wedding][anniversary][at][Cafe][Ole]`
+    <br>
     And if we apply token filters, we could end up with:
+    <br>
     `[   ][brown  ][fiftieth][wedding][anniversary][  ][cafe][ole]`
 </details>
 <br>
