@@ -16,6 +16,9 @@
   
   ## The inverted index!
   - Stores a mapping of `term -> Array<DocID>`;
+  - An index is made up of multiple segments;
+  - A segment is essentially a mini-index;
+  ![alt text](https://i.imgur.com/XUMxKXf.jpg "Inverted index")
 </details>
 <br>
 
