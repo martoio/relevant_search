@@ -55,8 +55,8 @@
     "assets": {
       "host01": [
         {
-          "file": "*",
-          "target": "/root/tech-talk"
+          "file": "init.sh",
+          "target": "/root/course"
         }
       ]
     }
