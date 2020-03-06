@@ -8,7 +8,7 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "courseData": "init.sh"
+        "courseData": "course/init.sh"
       },
       {
         "title": "Step 2",
@@ -58,7 +58,7 @@
       "host01": [
         {
           "file": "init.sh",
-          "target": "/root/"
+          "target": "/root/course"
         }
       ]
     }
