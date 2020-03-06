@@ -47,7 +47,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "credits": "Credits to Doug Turnbull and John Berryman for their book 'Relevant Search'"
     },
     "finish": {
       "text": "finish.md"
